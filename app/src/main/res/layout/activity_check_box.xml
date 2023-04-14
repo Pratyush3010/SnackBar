@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selection Of Items through Checkbox"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="70dp">
+
+        <CheckBox
+
+            android:id="@+id/chk1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Juice"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|normal" />
+
+
+        <CheckBox
+
+            android:id="@+id/chk2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chk1"
+            android:layout_margin="20dp"
+            android:text="Coldrink"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|normal" />
+
+
+        <CheckBox
+
+            android:id="@+id/chk3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chk2"
+            android:layout_margin="20dp"
+            android:text="Icream"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|normal" />
+
+
+        <CheckBox
+
+            android:id="@+id/chk4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chk3"
+            android:layout_margin="20dp"
+            android:text="Water"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|normal" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
